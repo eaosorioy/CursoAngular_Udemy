@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bases';
+  public title: string = 'Mi App de Angular';
+  
+  // otra forma 
+  // increseBy(value: string) {
+  //   if (value == 'suma') {
+  //     this.counter += 1;
+  //   } else {
+  //     this.counter -= 1;
+  //   }
+  // }
+
+
 }
